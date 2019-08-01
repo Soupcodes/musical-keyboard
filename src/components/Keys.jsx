@@ -1,13 +1,15 @@
 import React from "react";
 
-const Key = props => (
-  <button
-    key={props.className}
-    className={props.className}
-    onClick={() => props.playSound(props.className)}
-  >
-    {props.className.toUpperCase()}
-  </button>
-);
+const Key = props => {
+  return (
+    <button
+      key={props.className}
+      className={props.className}
+      onClick={() => props.playAudio(props.className)}
+    >
+      {props.className.toUpperCase()}
+    </button>
+  );
+};
 
 export default Key;
