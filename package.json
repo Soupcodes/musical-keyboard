@@ -7,7 +7,7 @@
     "react-dom": "^16.8.6",
     "react-keyboard-event-handler": "^1.5.1",
     "react-keydown": "^1.9.11",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
